@@ -16,7 +16,7 @@ const PastorDetails = () => {
         <div>
         <img
         className="pastordetails_image center mx-auto"
-        src="/images/pexels-pixabay-267559.jpg"
+        src="/images/P.jpg"
         alt="caros"
         width='200px'
         height='200px'

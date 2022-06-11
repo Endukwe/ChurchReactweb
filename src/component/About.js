@@ -15,17 +15,18 @@ const About = () => {
         <img src="/images/dove.png" alt="dove" className="dove_img"/>
         <div className="about_block">
       <div className="about_heading my-0 mx-auto">
-        <h1>Blissful Spring Arc Of God Church</h1>
+        <h1>Blissful Spring Arc Of God Church (Crown of Glory)</h1>
       </div>
       
       <Container>
         <p>
-          Lorem ipsum dolor sit amet. Ipsum necessitatibus ut quae quas aut
-          nesciunt velit aut rerum voluptates rem rerum consequuntur ut voluptas
-          atque sed assumenda iste. Ut corporis dignissimos qui distinctio enim
-          aut molestiae laboriosam 33 ipsum reprehenderit aut accusantium saepe
-          ut soluta omnis aut impedit officiis? Sit dolorum ullam aut porro
-          assumenda At consequatur cumque.
+          BSAC is a bible-believing christian community that guides all into a clear path
+          of lasting joy, happiness, peace, safety and protection.
+          We strive and stand on the purpose of aligning all to their divine destiny by drawing the community
+          closer to God, while being inspired by the word of God, music and prayers.
+          <br/>Our mission and vision as a church is to help people all over get revived to a new life, new beginning,
+          be liberated, healed, freed from captivity and affliction, while adding meaning to their lives through
+          the holy spirit that has mandated the church.
         </p>
       </Container>
       <div className="about_joinUs mt-5 mb-1 mx-auto ">
@@ -33,7 +34,7 @@ const About = () => {
       </div>
       <Container>
       <div className="about_joinUstext mx-auto">
-        <p>Worship with us at 22 heavens road eziowelle rd on :</p>
+        <p>No 31 Anam Street, Omagba phase II Onitsha, Anambra State.</p>
       </div>
       </Container>
       </div>
@@ -45,14 +46,14 @@ const About = () => {
     <Card.Img variant="top" src="/images/sundayservice.jpg" style={{borderRadius:"2em"}} />
     <Card.Body>
       <Card.Title>Sunday</Card.Title>
-      <h3>Holy Ghost Service</h3>
+      <h3>Church Service</h3>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        Worship with us on Sundays, for a spirit filled encounter with the Word of God,
+        Worship and prayers. 
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <p className="">10am (WAT) Weekly</p>
+    <p className="">9:00 A.M (WAT) Weekly</p>
     </Card.Footer>
   </Card>
   <Card bg="secondary" className="pastor_card mx-auto"  style={{ width: '18rem',
@@ -63,27 +64,42 @@ const About = () => {
       <Card.Title>Wednesday</Card.Title>
       <h3>Bible Study</h3>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Feed your heart and mind with Gods word as we study and illuminate on teachings that 
+        are practical and spiritual to impact your life positively.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-     <> <p className="">5pm (WAT) Weekly</p></>
+     <> <p className="">4:00 P.M - 5:30 P.M (WAT) Weekly</p></>
+    </Card.Footer>
+  </Card>
+  <Card bg="secondary" className="pastor_card mx-auto"  style={{ width: '18rem',
+borderRadius:"2em" }}>
+    <Card.Img variant="top" src="/images/councel.png" style={{borderRadius:"2em"}}/>
+    <Card.Body>
+      <Card.Title>Saturday</Card.Title>
+      <h3>Councelling</h3>
+      <Card.Text>
+        Have a private councelling and prayer session with the prophet of God. The spirit 
+        moves and things of the spirit are revealed by God for his glory and our upliftment. 
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <p className="">9:00 A.M - 12:00 P.M  (WAT) Weekly</p>
     </Card.Footer>
   </Card>
   <Card bg="secondary" className="pastor_card mx-auto"  style={{ width: '18rem',
 borderRadius:"2em" }}>
     <Card.Img variant="top" src="/images/fridayworship.jpg" style={{borderRadius:"2em"}}/>
     <Card.Body>
-      <Card.Title>Friday</Card.Title>
-      <h3>Glory Worship</h3>
+      <Card.Title>Last Friday of the Month</Card.Title>
+      <h3>Night of Bliss</h3>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. 
+        Join us for the night of bliss every last friday of the month, as we Worship, Pray, Anoint, 
+        Break Bonds, Liberate, Manifest Miracles and experience Divine Healing from the most High.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <p className="">6pm (WAT) Weekly</p>
+    <p className="">10:00 P.M - 4:00 A.M  (WAT)</p>
     </Card.Footer>
   </Card>
 </CardGroup>

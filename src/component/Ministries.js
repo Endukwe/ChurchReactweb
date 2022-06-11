@@ -49,6 +49,20 @@ const Ministries = () => {
               width={371}
               height={380}
               alt="171x180"
+              src="/images/youth.jpg"
+              
+            />
+            <Figure.Caption style={{position:"absolute", top:"50%", left:"50%", }}>
+              <h3 className="ministry_cont mx-auto" style={{color:"white"}} >Youths Ministry.</h3>
+            </Figure.Caption>
+          </Figure>
+        </div>
+        <div className="ministry_cont mx-auto">
+        <Figure style={{position:"relative", textAlign:"center"}} >
+            <Figure.Image
+              width={371}
+              height={380}
+              alt="171x180"
               src="/images/Kids.jpg"
               
             />

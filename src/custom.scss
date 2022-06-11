@@ -25,7 +25,7 @@ html,body
 h1,h2,h3{
   color: #001220;
   font-family: 'Roboto Slab', serif;
-  font-weight: bold
+  font-weight: 900;
 }
 p{
   color: #001220;
@@ -374,4 +374,10 @@ Link:hover{
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
   stroke-width: 6;
+}
+
+.sermon-tittle{
+  text-decoration: underline;
+  font-weight: bolder;
+  
 }

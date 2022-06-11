@@ -1,5 +1,6 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
 
 const PrayerRequest = () => {
   return (
@@ -13,12 +14,13 @@ const PrayerRequest = () => {
   <Card.Img src="/images/pexels-pixabay-267559.jpg" alt="Card image" className='pastor_card'/>
   <Card.ImgOverlay className='Img_overlay d-flex align-items-end '>
       <div>
-    <Card.Title>PrayerRequest</Card.Title>
+    <Card.Title><h3>PrayerRequest</h3></Card.Title>
     <Card.Text className='text-light'>
-     You can request for Prayer or book an appointment with the Pastor
+     You can request for Prayer or book an appointment with the Prophet of God
     </Card.Text>
-    
+    <LinkContainer to='prayerrequestform'>
     <Button className='bg-dark text-light '>Request</Button>
+    </LinkContainer>
     </div>
   </Card.ImgOverlay>
 </Card>

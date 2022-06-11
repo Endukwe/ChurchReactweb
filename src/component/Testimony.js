@@ -2,7 +2,7 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
-import { Card} from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,7 +16,7 @@ const Testimony = () => {
   return (
     <>
       <div
-      id="testimonies"
+        id="testimonies"
         className="py-5"
         style={{
           backgroundImage: "url('/images/blob-scatter-haikei (2).svg')",
@@ -48,16 +48,16 @@ const Testimony = () => {
               <div className=" mx-auto" style={{ width: "8em", height: "8em" }}>
                 <Card.Img
                   variant="top"
-                  src="/images/pexels-pixabay-267559.jpg"
+                  src="/images/T1.jpg"
                   className="img_test mt-2"
                 />
               </div>
 
               <Card.Body>
-                <Card.Title>Pastor Arthur Eze</Card.Title>
+                <Card.Title>kingsley Umunna</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is a church and community that wholy embraces the modern
+                  youths and there perculiar challenges.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -71,16 +71,16 @@ const Testimony = () => {
               <div className=" mx-auto" style={{ width: "8em", height: "8em" }}>
                 <Card.Img
                   variant="top"
-                  src="/images/pexels-pixabay-267559.jpg"
+                  src="/images/T2.jpg"
                   className="img_test mt-2"
                 />
               </div>
 
               <Card.Body>
-                <Card.Title>Pastor Arthur Eze</Card.Title>
+                <Card.Title>Chukwuebuka Nduka</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  BSAC is a family of love, and members are always welcomed with
+                  open arms.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -94,66 +94,21 @@ const Testimony = () => {
               <div className=" mx-auto" style={{ width: "8em", height: "8em" }}>
                 <Card.Img
                   variant="top"
-                  src="/images/pexels-pixabay-267559.jpg"
+                  src="/images/T3.jpg"
                   className="img_test mt-2"
                 />
               </div>
 
               <Card.Body>
-                <Card.Title>Pastor Arthur Eze</Card.Title>
+                <Card.Title>Mr. Dan Dialaeme</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Expect your blessings, miracles and breakthrough through Gods
+                  anointed prophet in BSAC.
                 </Card.Text>
               </Card.Body>
             </Card>
           </SwiperSlide>
-          <SwiperSlide className="swiper_testimony">
-            <Card
-              bg="secondary"
-              className="pastor_card"
-              style={{ width: "18rem", height: "100%" }}
-            >
-              <div className=" mx-auto" style={{ width: "8em", height: "8em" }}>
-                <Card.Img
-                  variant="top"
-                  src="/images/pexels-pixabay-267559.jpg"
-                  className="img_test mt-2"
-                />
-              </div>
-
-              <Card.Body>
-                <Card.Title>Pastor Arthur Eze</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide className="swiper_testimony">
-            <Card
-              bg="secondary"
-              className="pastor_card"
-              style={{ width: "18rem", height: "100%" }}
-            >
-              <div className=" mx-auto" style={{ width: "8em", height: "8em" }}>
-                <Card.Img
-                  variant="top"
-                  src="/images/pexels-pixabay-267559.jpg"
-                  className="img_test mt-2"
-                />
-              </div>
-
-              <Card.Body>
-                <Card.Title>Pastor Arthur Eze</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
+          
         </Swiper>
       </div>
     </>

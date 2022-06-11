@@ -6,7 +6,7 @@ import Sermon from './Sermon';
 import Pastor from './Pastor';
 import PrayerRequest from './PrayerRequest';
 import Testimony from './Testimony';
-import Blog from './Blog';
+//import Blog from './Blog';
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <Pastor/>
       <PrayerRequest/>
       
-      <Blog/>
+      {/* <Blog/> */}
       <Testimony/>
     </>
   )

@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <>
           <LinkContainer to="/">
-            <img src="/images/logochurch.png" alt="" className="header_img " />
+            <img src="/images/logonew.png" alt="" className="header_img " />
           </LinkContainer>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav">    <button className="menu" onclick="this.classNameList.toggle('opened');this.setAttribute('aria-expanded', this.classNameList.contains('opened'))" aria-label="Main Menu">

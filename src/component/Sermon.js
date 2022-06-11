@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 import "swiper/css/autoplay";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Sermon = () => {
   return (
@@ -29,11 +30,11 @@ const Sermon = () => {
       </div>
       <Container>
       <p className="center">Explore and listen to the latest sermons by our 
-        churchs Pastor added daily and available for download in various formats</p>
+        Prophet added daily and available for download in various formats</p>
         </Container>
       <>
         <Swiper
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 4000 }}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -49,55 +50,19 @@ const Sermon = () => {
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="swiper swiper_sermon"
         >
+          
           <SwiperSlide>
             <Card style={{ width: "18rem" }}>
               
               <Card.Body>
-                <Card.Title className="text-dark">Fruits of the spirit</Card.Title>
+                <Card.Title  className="text-dark sermon-tittle">Faith at Work</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content....
+                  Mattew 21:22 says:'And whatever you ask in prayer, you will receive if you have faith'.
+                  Grooming your faith like a battle tool...
                 </Card.Text>
-                <Button variant="primary" className="bg-dark text-light">Explore more</Button>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card style={{ width: "18rem" }}>
-              
-              <Card.Body>
-                <Card.Title  className="text-dark">Faith and Love</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content...
-                </Card.Text>
-                <Button variant="primary" className="bg-dark text-light">Explore</Button>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card style={{ width: "18rem" }}>
-              
-              <Card.Body>
-                <Card.Title  className="text-dark">Running the good race</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content...
-                </Card.Text>
-                <Button variant="primary" className="bg-dark text-light">Explore</Button>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card style={{ width: "18rem" }}>
-              
-              <Card.Body>
-                <Card.Title  className="text-dark">The Divine Breakthrough</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content...
-                </Card.Text>
+                <LinkContainer to='sermondetails'>
                 <Button className="bg-dark text-light" variant="primary">Explore</Button>
+                </LinkContainer>
               </Card.Body>
             </Card>
           </SwiperSlide>
@@ -105,15 +70,33 @@ const Sermon = () => {
             <Card style={{ width: "18rem" }}>
               
               <Card.Body>
-                <Card.Title  className="text-dark">Time and tide</Card.Title>
+                <Card.Title className="text-dark sermon-tittle mx-auto">Fruits of the spirit</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content...
+                  How to embrace the virtues of galatians 5:22-23 and lead a happier and 
+                 fulfilled life....
                 </Card.Text>
+                <LinkContainer to='sermondetails'>
                 <Button className="bg-dark text-light" variant="primary">Explore</Button>
+                </LinkContainer>
               </Card.Body>
             </Card>
           </SwiperSlide>
+          <SwiperSlide>
+            <Card style={{ width: "18rem" }}>
+              
+              <Card.Body>
+                <Card.Title  className="text-dark sermon-tittle">The Divine Breakthrough</Card.Title>
+                <Card.Text>
+                  Isaiah 43:19 "Behold i will do a new thing; now it shall spring forth; shall ye not know it?
+                  i will make a way in the wilderness and rivers in the desert"...
+                </Card.Text>
+                <LinkContainer to='sermondetails'>
+                <Button className="bg-dark text-light" variant="primary">Explore</Button>
+                </LinkContainer>
+              </Card.Body>
+            </Card>
+          </SwiperSlide>
+         
         </Swiper>
       </>
     </div>

@@ -30,7 +30,7 @@ const Blog = () => {
     </div>
     <div className="center mx-2"><p>Check latest blog post of our pastor on various topics of discourse</p></div>
       <Swiper
-      autoplay={{delay: 1000}}
+      autoplay={{delay: 3000}}
         direction={"horizontal"}
         slidesPerView={1}
         spaceBetween={10}

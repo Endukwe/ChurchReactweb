@@ -2,11 +2,10 @@ import "./App.css";
 import Header from "./component/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
-import About from "./component/About";
-import Ministries from "./component/Ministries";
-import Sermon from "./component/Sermon";
 import Footer from "./component/Footer";
 import PastorDetails from "./component/PastorDetails";
+import PrayerRequestForm from "./component/PrayerRequestForm";
+import SermonDetails from "./component/SermonDetails";
 
 function App() {
   return (
@@ -17,8 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="pastordetails" element={<PastorDetails/>} />
-          <Route path="ministries" element={<Ministries />} />
-          <Route path="sermon" element={<Sermon />} />
+          <Route path="prayerrequestform" element={<PrayerRequestForm />} />
+          <Route path="sermondetails" element={<SermonDetails />} />
         </Routes>
         </main>
         <Footer />
