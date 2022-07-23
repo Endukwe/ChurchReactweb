@@ -16,20 +16,24 @@ const PastorDetails = () => {
         <div>
         <img
         className="pastordetails_image center mx-auto"
-        src="/images/P.jpg"
+        src="/images/pastordetails.jpeg"
         alt="caros"
-        width='200px'
-        height='200px'
+        width='300px'
+        height='300px'
       />
         </div>
         <div className='my-5'>
             <p>
-        Lorem ipsum dolor sit amet. Ipsum necessitatibus ut quae quas aut
-          nesciunt velit aut rerum voluptates rem rerum consequuntur ut voluptas
-          atque sed assumenda iste. Ut corporis dignissimos qui distinctio enim
-          aut molestiae laboriosam 33 ipsum reprehenderit aut accusantium saepe
-          ut soluta omnis aut impedit officiis? Sit dolorum ullam aut porro
-          assumenda At consequatur cumque.
+        Prophet O. Eze is the founder and general overseer(GO) OF BLISSFUL SPRING ARK OF GOD CHURCH(CROWN OF GLORY).
+        He hails from Affa Udi local government Area of Enugu state.
+        He holds a Bsc in management (UNN) and an old boy of College of Immaculate Conception (CIC) Enugu state.
+        After graduation he has worked with A-Z petroleum products and Zenith bank plc respectively.
+        His divine calling after several years in the banking industry was mandated by the holy spirit to take the plunge and start touching lives,
+        making life meaningful through the power of God Almighty.
+        He desires to bring endless satidfaction, joy, peace, salvation, healing, breakthrough, victory to 
+        people all over the and spreading the gospel and song ministration.
+        One of his core dreams and driving force remains to break the sharkles of darkness and making the world 
+        a better place for the children of God.
           </p>
         </div>
         <div>

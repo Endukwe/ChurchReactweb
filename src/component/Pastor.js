@@ -1,6 +1,6 @@
 import React from 'react';
-import {Card, } from 'react-bootstrap'
-//import {LinkContainer} from 'react-router-bootstrap'
+import {Card, Button } from 'react-bootstrap'
+import {LinkContainer,} from 'react-router-bootstrap'
 
 const Pastor = () => {
   return (
@@ -26,9 +26,9 @@ const Pastor = () => {
       An anointed prophet, teacher, servant and shepherd in the lords vineyard.
       
     </Card.Text>
-    {/* <LinkContainer to='pastordetails'>
+    <LinkContainer to='pastordetails'>
     <Button variant="primary"  className="text-light bg-dark" >Read More</Button>
-    </LinkContainer> */}
+    </LinkContainer>
   </Card.Body>
 </Card>
 
